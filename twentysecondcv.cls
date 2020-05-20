@@ -271,7 +271,7 @@
     %------------------------------------------------
     
         \vspace{4mm}
-    {\color{pblue}\LARGE \cvname}
+    {\color{black!80}\LARGE \cvname}
     
     \vspace{4mm}
 
@@ -284,11 +284,11 @@
     \vspace{2mm}
     \renewcommand{\arraystretch}{1.2}
     \begin{tabular}{p{0.5cm} p{2cm} @{\hskip 0.25cm} p{0.5cm} p{3cm}}
-     \textnormal{\textcolor{pblue}{ \large \faBirthdayCake}} & \cvbirthday &  \textnormal{\textcolor{pblue}{ \large \faGlobe}} & \cvnatio \\
-     \textnormal{\textcolor{pblue}{\large \faHome}} & \cvhome & \textnormal{\textcolor{pblue}{\large \ \faMobile}} & \cvnumberphone  \\
-     \textnormal{\textcolor{pblue}{\faEnvelopeO}}   & \href{mailto:\cvmail}{\cvmail} \\
-		\textnormal{\textcolor{pblue}{\faGithub}} & \href{https://www.github.com/\cvgithub}{\cvgithub} &
-    \textnormal{\textcolor{pblue}{\faLinkedin}}  & \href{https://www.linkedin.com\cvlinkedin}{\cvlinkedin}        
+     \textnormal{\textcolor{black!80}{ \large \faBirthdayCake}} & \cvbirthday &  \textnormal{\textcolor{black!80}{ \large \faGlobe}} & \cvnatio \\
+     \textnormal{\textcolor{black!80}{\large \faHome}} & \cvhome & \textnormal{\textcolor{black!80}{\large \ \faMobile}} & \cvnumberphone  \\
+     \textnormal{\textcolor{black!80}{\faEnvelopeO}}   & \href{mailto:\cvmail}{\cvmail} \\
+		\textnormal{\textcolor{black!80}{\faGithub}} & \href{https://www.github.com/\cvgithub}{\cvgithub} \\
+    \textnormal{\textcolor{black!80}{\faLinkedin}}  & \href{https://www.linkedin.com\cvlinkedin}{\cvlinkedin}        
     \end{tabular}
 
     %------------------------------------------------
@@ -336,7 +336,7 @@
 
 \def\@sectioncolor#1#2#3{%
 	{%
-		\color{pblue} #1#2#3%
+		\color{black!80} #1#2#3%
 	}%
 }
 
@@ -344,7 +344,7 @@
 \renewcommand{\section}[2]{
   \par\vspace{\parskip}
 	{%
-		\LARGE \textcolor{pblue}{ \large #2} \ \headingfont\color{headercolor}%
+		\LARGE \textcolor{black!80}{ \large #2} \ \headingfont\color{headercolor}%
 		\@sectioncolor #1%
 	}
   \par\vspace{\parskip}

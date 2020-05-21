@@ -1,4 +1,4 @@
 # LaTeX Resume Template 
-This is forked from Johayon repository: https://github.com/Johayon/Data-Scientist-Resume-LaTeX
+This was forked from Johayon repository: https://github.com/Johayon/Data-Scientist-Resume-LaTeX and edited to more suit me.
 
 ![](Ahmed_Mohamed_Resume.jpg)

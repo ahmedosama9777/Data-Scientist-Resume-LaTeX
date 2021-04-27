@@ -1,3 +1,5 @@
+% !TeX program = xelatex
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Twenty Seconds Resume/CV
 % LaTeX Template
@@ -16,17 +18,17 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
 
 % Command for printing skill overview bubbles
 \newcommand\skills{ 
 ~ 
 	\smartdiagram[bubble diagram]{
         \textbf{Machine}\\\textbf{Learning},
-        \textbf{~~~Deep~~~}\\\textbf{Learning},
         \textbf{Computer}\\\textbf{Vision},
-        \textbf{Robotics},
-				\textbf{Embedded}\\\textbf{Systems}
+        \textbf{Deep}\\\textbf{Learning},
+        \textbf{NLP},
+        \textbf{Robotics}
     }
 }
 
@@ -44,16 +46,16 @@
 \definecolor{maingray}{HTML}{B9B9B9}
 \smartdiagramset{set color list = {maingray,maingray,maingray,maingray,maingray,maingray,maingray}}
 \smartdiagram[descriptive diagram]{
-{\large\faFlask,{TensorFlow OpenCV PyTorch NumPy Keras SciPy CUDA}}, 
-{\large \faDatabase,{MySql MongoDB}}, {\large \faAreaChart,{Matplotlib Pandas \LaTeX}},
-{\large \faCogs,{git, ROS}}}
+{\large\faFlask,{Linux TensorFlow  PyTorch OpenCV tfx Docker Kubernetes NumPy Keras SciPy CUDA Laravel .NET}}, 
+{\large \faDatabase,{MySql MongoDB }}, {\large \faAreaChart,{Matplotlib Pandas \LaTeX}},
+{\large \faCogs,{OOP, git, ROS, CAN, LIN, UART/USART, I2C, SPI}}}
 
 }
 
-\programmings{30/materialpurple/\textbf {\textsf{ C++/C}}, 15/orange/\textbf {\textsf{ Matlab}}, 40/pblue/ \ \mfPython \textbf{ Python}, 15/materiallime/ \ \textbf {\textsf{JavaScript}}}{2.25}{0.75}
+\programmings{7/pblue/\textbf {\textsf{NodeJS}},5/orange/\textbf{\textsf{C\#}}, 5/materialpurple/\textbf{\textsf{PHP}},5/materialpurple/\textbf{HTML}, 5/materialpurple/\textbf{CSS},  7/materiallime/\textbf {\textsf{C++/C}}, 7/pblue/ \ \mfPython \textbf{ Python}, 5/materiallime/ \ \textbf {\textsf{Java}}}{2.25}{0.75}
 
 % Interest icons text
-\interests{ \textcolor{black!80}{\large \faBook \ \ \faMusic \ \ \faTv \ \ \faBicycle  \ \ \faGamepad \ \ \faLinux
+\interests{ \textcolor{black!80}{\large  \faMusic \ \  \faBicycle  \ \ \faGamepad \ \ \faLinux
 }}
 
 %----------------------------------------------------------------------------------------
@@ -62,11 +64,11 @@
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
 \cvname{Ahmed Mohamed} % Your name
-\cvjobtitle{Software Engineer \\ Computer Vision } % Job
+\cvjobtitle{Machine Learning Engineer  } % Job
 % title/career
 
 \cvbirthday{09/19/1997} \cvnatio{Egyptian} % Personal website
-\cvhome{Cairo, Eg}  \cvnumberphone{+20 1027916478} % Phone number
+\cvhome{Cairo, Eg}  \cvnumberphone{+201027916478} % Phone number
 \cvmail{ahmedosama9777@gmail.com} % Email address
 \cvgithub{ahmedosama9777} % GitHub
 \cvlinkedin{/in/ahmedosama9777}  % LinkedIn
@@ -90,7 +92,7 @@
         {}
         {Bachelor of Science}
         {Cairo University, Faculty of Engineering}
-        {Major in Computer Engineering}
+        {Major in Computer Engineering - Grade: Very Good}
 
 	
 	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
@@ -100,53 +102,101 @@
 %----------------------------------------------------------------------------------------
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
+\vspace{-0.25cm}
 
 \section{Experience}{\faAlignJustify}
 
 \begin{twenty} % Environment for a list with descriptions
 
 
-\twentyitem
-    	{2019 - 2020}
-		{}
-        {Electrical Technical Director}
-        {\href{https://curt-fs.team//}{Cairo Uni Racing Team}}
-        {}
-        {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
-				\item Designed and implemented a reliable and robust perception pipeline based on a single monocular camera.
-				\item Designed and implemented a simultaneous localization and mapping module.
-				\item Integrated all software modules through a ROS sekeleton. 
-				\item Simulated and visulized the full functioning driverless vehicle.
-				\item Managed a team of 30 members to design and simulate the electrical system of a formula-style electric vehicle.
-				\item \textbf{tools}: Python, PyTorch, ROS, rviz, git.
-				\end{itemize}} \\
-				
-	\twentyitem
-    	{2018 - 2019}
-		{}
-        {Embedded Systems Team Head}
-        {\href{https://curt-fs.team//}{Cairo Uni Racing Team}}
-        {}
-        {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
-        \item Along side a team, designed, simulated and manufactured an formula style electric vehicle.
-        \item Using ARM controllers, built an embedded system of several electronic control units connected through CAN protocol. 
-        \item Managed a team of seven members to work together under a V-model of development.
-        \item Gained deep and intensive knowledge and practical experience in embedded systems and automotives.
-				\item \textbf{tools}: C++, C, git, ARM controllers, CAN protocol.
+
+
+ \twentyitem
+  {Dec. 2020 -}
+{}
+    {Machine Learning Engineer}
+    {\href{https://www.upwork.com/freelancers/~01ec81ec5f74cf3ea8}{Upwork}}
+    {}
+    {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
+    \item Development of complete software of plant disease classification and growth tracking.
+    \item Development of software to set up thermal camera color spaces using C++ and OpenCV.
+    \item \textbf{tools}: Python, TensorFlow, tfx, Docker, Kubernetes, C++, OpenCV.
+    \end{itemize}} \\
+
+  \twentyitem
+  {Jan. 2021 - Apr. 2021}
+{}
+    {Computer Vision Research Engineer}
+    {\href{http://eng.cu.edu.eg/en/}{Cairo University}}
+    {}
+    {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
+    \item Developed a PointNet based software pipeline that produces clusters of objects-of-significance of a power plant point cloud, and then classifies these objects into four main classes.
+    \item Submitted a paper of the proposed pipeline and software to Remote Sensing journal.
+    \item \textbf{tools}: Python, Point Cloud Library (PCL), git.
+    \end{itemize}} \\
+
+
+  \twentyitem
+  {Jan. 2021 - Apr. 2021}
+{}
+    {Robot Process Automation Developer}
+    {\href{https://www.sumerge.com/}{Sumerge Software Solutions}}
+    {}
+    {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
+    \item Automated business, functional and team-related processes using Python scripts and AutomationAnywhere.
     \end{itemize}} \\
 		
-    \twentyitem
-   		{2018}
-		{}
-        {Software Developer Intern}
-        {\href{http://www.eao.gov.eg/English/Pages/default.aspx/}{Egyptian Ambulance Organization}}
-        {}
-        {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
-				\item  Development of automated surgery waiting list for egyptian public hospitals.
-\item System was Submitted for production and deployment in september 26th, 2018.
-\item The internship was a three months one, from June to September 2018.
-				\item \textbf{tools}: Laravel, HTML, CSS, PHP, MySQL 
+
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 INTERNSHIP
+%----------------------------------------------------------------------------------------
+\vspace{-0.25cm}
+
+\section{Internships}{\faAlignJustify}
+
+\begin{twenty} % Environment for a list with descriptions
+
+  \twentyitem
+  {Oct. 2019 - Sep. 2020}
+{}
+    {Computer Vision Engineer}
+    {\href{https://onelab-eg.com/}{ONE Lab Egypt}}
+    {}
+    {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
+    \item  Designed and implemented a reliable and robust computer vision pipeline based on a single monocular camera for an autonomous racing vehicle.
+    \item  Implemented the perception pipeline; an object detection module integrated with a PNP algorithm to detects objects' locations in 3D map.
     \end{itemize}} \\
+
+  \twentyitem
+  {Aug. 2020 - Oct. 2020}
+{}
+    {Software Engineer}
+    {\href{http://www.eao.gov.eg/English/Pages/default.aspx/}{Egyptian Ambulance Organization}}
+    {}
+    {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
+    \item Implemented a web-application of Egyptian Ambuance CAD desktop application.
+    \item Optimized and increased the accuracy of the suggestive algorithm of finding nearest ambulance to the emergency case.
+    \item \textbf{tools}: NodeJS, React, SQL, Distance Matrix API.
+    \end{itemize}} \\
+
+  \twentyitem
+  {Jan. 2018 - Sep. 2018}
+{}
+    {Software Engineer}
+    {\href{http://www.eao.gov.eg/English/Pages/default.aspx/}{Egyptian Ambulance Organization}}
+    {}
+    {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
+    \item Development of automated surgery waiting list for egyptian public hospitals.
+    \item \textbf{tools}: Laravel, HTML, CSS, PHP, MySQL.
+    \end{itemize}} \\
+
+
 		
 
         
@@ -156,60 +206,46 @@
 
 \section{Projects }{\faClipboard}
 \begin{twenty}
-
   \twentyitem
-   		{2020}
-		{}
-        {AI Go Board Game}
-        {\href{https://github.com/JoGo20/Implementation/}{GitHub Repo}}
-        {}
-        {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
-				\item  AI agent for Go board game based on Deepmind's AlphaGozero.
-       
-    \end{itemize}} \\\\
+  {2021}
+  {}
+   {Power Plant Point Cloud Classifier || Python}
+   {\href{}{}}
+   {}
+   {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
+   \item  As a part in PhD thesis, worked on the development of a software to detect objects of significance from a power plant point cloud. Paper is currently being reviewed by Remote Sensing Journal to be published.
+   \item \textbf{tools}: Python, PyTorch, PointNet, OpenCV.
+  \end{itemize}} \\\\
 
-    \twentyitem
-    {2019 - 2020}
- {}
-     {OCR for Arabic Scripts}
-     {\href{https://github.com/ahmedosama9777/OCR-for-Arabic-Scripts/}{GitHub Repo}}
-     {}
-     {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
-     \item  Optical character recognition of arabic script images and output scripts as text.
-    
- \end{itemize}} \\\\
 
  \twentyitem
  {2019 - 2020}
 {}
-  {AutoRace}
+  {AutoRace || Python} 
   {\href{https://github.com/curtfs/CURT-FSAI/}{GitHub Repo}}
   {}
   {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
-  \item  Implementation of a state-of-the-art Robotics Software pipeline of an autonomous racing vehicle including Perception from monocular and stereo cameras, Localization, Mapping, and Motion Control.
+  \item  Implementation of a state-of-the-art Robotics Software pipeline of an autonomous racing vehicle.
+  \item \textbf{tools}: Python, PyTorch, ROS, rviz, git, CMake, computer vision, deep learning.
  
 \end{itemize}} \\\\
 
 \twentyitem
-   		{2018 - 2019}
-		{}
-        {Embedded Software of Electric Vehicle}
-        {\href{https://https://github.com/curtfs/CURTEV-19/}{GitHub Repo}}
-        {}
-        {\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
-				\item  The 2019 electrical vehicle embedded system code for Cairo University Racing Team.
-       
-    \end{itemize}} \\\\
+{2018 - 2019}
+{}
+{Embedded Software of Electric Vehicle || C++}
+{\href{https://github.com/curtfs/CURTEV-19//}{GitHub Repo}}
+{}
+{\vspace{-2mm}\begin{itemize}[topsep=0pt,partopsep=0pt]
+\item  The 2019 electrical vehicle embedded system code for Cairo Uni Racing Team.
+\item \textbf{tools}: C++, C, Assembly, Makefile, git, ARM controllers, CAN protocol.
+\end{itemize}} \\\\
+
+
+
+
       
-   
+  \end{twenty}
 
- 
-			
-	    
-		
 
-	
-		
-	
-\end{twenty}
 \end{document} 
